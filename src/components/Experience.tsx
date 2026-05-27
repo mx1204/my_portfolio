@@ -50,7 +50,11 @@ export default function Experience() {
       role: 'Artillery - Leadership Trainee | Distinguished Honour Graduate',
       dates: 'Feb 2020 – Feb 2022',
       location: 'Singapore',
-      description: 'Selected for a 6-month leadership course and graduated as a Distinguished Honour Graduate, ranking among the top performers. Trained in team leadership, mission planning, and high-pressure decision-making in both field and academic settings. Demonstrated initiative, resilience, and adaptability. Skills now applied to academic and professional settings.'
+      description: [
+        'Selected for a 6-month leadership course and graduated as a Distinguished Honour Graduate, ranking among the top performers.',
+        'Trained in team leadership, mission planning, and high-pressure decision-making in both field and academic settings.',
+        'Demonstrated initiative, resilience, and adaptability. Skills now applied to academic and professional settings.'
+      ]
     }
   ];
 
