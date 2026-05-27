@@ -37,7 +37,7 @@ function App() {
     trail.className = 'cursor-trail';
     document.body.appendChild(trail);
 
-    const trails = [];
+    const trails: HTMLElement[] = [];
     const trailCount = 5;
 
     for (let i = 0; i < trailCount; i++) {

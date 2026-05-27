@@ -12,7 +12,7 @@ export default function Skills() {
     },
     {
       title: 'DevOps & Cloud',
-      items: ['Docker', 'GitHub Actions', 'AWS (Lambda, S3)', 'Azure Functions']
+      items: ['Docker', 'GitHub Actions', 'AWS (Lambda, S3)']
     },
     {
       title: 'Security',

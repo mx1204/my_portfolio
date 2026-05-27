@@ -41,9 +41,6 @@ export default function Projects() {
                     <li key={t} className="badge">{t}</li>
                   ))}
                 </ul>
-                <a href={p.link} className="btn primary" target="_blank" rel="noopener noreferrer">
-                  View Details
-                </a>
               </div>
             </div>
           ))}
