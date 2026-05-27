@@ -7,21 +7,21 @@ export default function Projects() {
       tech: ['Node.js', 'Google APIs', 'Telegram Bot', 'OpenAI'],
       description:
         'Bidirectional AI assistant that reads Gmail threads and replies via Telegram, automating daily email tasks.',
-      link: 'https://github.com/yourusername/gmail-telegram-copilot',
+      link: 'https://github.com/mx1204/gmail-telegram-copilot',
     },
     {
       title: 'GrammarLift',
       tech: ['React', 'TypeScript', 'TensorFlow.js', 'Vite'],
       description:
         'Web app that uses a fine‑tuned language model to rewrite user sentences for better grammar and tone.',
-      link: 'https://github.com/yourusername/grammalift',
+      link: 'https://github.com/mx1204/grammalift',
     },
     {
       title: 'SG Tech Pulse Crew',
       tech: ['Next.js', 'MongoDB', 'TailwindCSS', 'Vercel'],
       description:
         'Community platform for Singapore tech meet‑ups, featuring event calendars, member profiles, and live chat.',
-      link: 'https://github.com/yourusername/sg-tech-pulse-crew',
+      link: 'https://github.com/mx1204/sg-tech-pulse-crew',
     },
   ];
 

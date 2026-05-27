@@ -27,9 +27,6 @@ export default function Contact() {
           Send Message
         </button>
       </form>
-      <p className="note">
-        Note: Replace <code>your_form_id</code> in the form action with your actual Formspree project ID to enable form submissions.
-      </p>
       </div>
     </section>
   );

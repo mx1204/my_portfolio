@@ -70,18 +70,3 @@
 .contact-form button[type="submit"]:active {
   transform: translateY(0);
 }
-
-.note {
-  margin-top: 1.5rem;
-  font-size: 0.8rem;
-  color: #777;
-  text-align: center;
-}
-
-.note code {
-  background: var(--code-bg);
-  padding: 0.15rem 0.4rem;
-  border-radius: 4px;
-  font-family: var(--mono);
-  color: var(--accent);
-}

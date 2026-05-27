@@ -9,8 +9,8 @@ export default function Experience() {
       description: 'Developed AI‑powered data pipelines and prototype LLM‑based tutoring systems, publishing 2 papers in conference venues.'
     },
     {
-      company: 'Tech Startup Intern',
-      role: 'Full‑Stack Engineer',
+      company: 'Stealth Startup',
+      role: 'Full‑Stack Engineer (Intern)',
       dates: 'Jun 2023 – Dec 2023',
       description: 'Built a SaaS analytics dashboard with React, Node.js, and Docker, improving client data visibility by 40%.'
     },

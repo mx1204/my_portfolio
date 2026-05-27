@@ -12,8 +12,9 @@ export default function Hero() {
           <a href="/Lee_Ming_Xuan_CV.pdf" className="btn secondary" download>Download CV</a>
         </div>
         <div className="hero-links">
-          <a href="mailto:mingx@example.com" className="link-icon" aria-label="Email">✉️</a>
+          <a href="mailto:leemingxuan@example.com" className="link-icon" aria-label="Email">✉️</a>
           <a href="https://linkedin.com/in/lee-ming-xuan" target="_blank" rel="noopener" className="link-icon" aria-label="LinkedIn">🔗</a>
+          <a href="https://github.com/mx1204" target="_blank" rel="noopener" className="link-icon" aria-label="GitHub">💻</a>
         </div>
       </div>
       <div className="hero-bg" />
