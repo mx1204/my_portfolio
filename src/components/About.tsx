@@ -14,7 +14,7 @@ export default function About() {
 
     const startDecryption = () => {
       interval = setInterval(() => {
-        setDisplayText(fullText.split('').map((char, index) => {
+        setDisplayText(fullText.split('').map((_, index) => {
           if (index < iteration) {
             return fullText[index];
           }
