@@ -57,3 +57,12 @@
   background: rgba(0, 223, 255, 0.2);
   transform: scale(1.05);
 }
+
+@media (max-width: 768px) {
+  .skill-grid {
+    grid-template-columns: 1fr;
+  }
+  .skill-card {
+    padding: 1.5rem;
+  }
+}

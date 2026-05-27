@@ -91,3 +91,12 @@
   box-shadow: 0 0 15px var(--accent);
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+  .card-body {
+    padding: 1.5rem;
+  }
+}

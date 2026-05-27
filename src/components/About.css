@@ -38,3 +38,10 @@
   letter-spacing: 1px;
   margin-bottom: 0.25rem;
 }
+
+@media (max-width: 768px) {
+  .detail-block {
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+  }
+}

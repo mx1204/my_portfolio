@@ -45,8 +45,10 @@
   color: var(--accent);
 }
 @media (max-width: 768px) {
+  .navbar { padding: 0 1rem; }
+  .brand { font-size: 1.3rem; }
   .hamburger { display: flex; }
-  .nav-links { 
+  .nav-links {
     position: absolute;
     top: 60px;
     left: 0;
@@ -56,6 +58,12 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
+    padding: 0 1rem;
   }
   .nav-links.open { max-height: 300px; }
+  .nav-links a {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-links a:last-child { border-bottom: none; }
 }
