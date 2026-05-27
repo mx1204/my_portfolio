@@ -16,7 +16,7 @@ export default function Skills() {
     },
     {
       title: 'Security',
-      items: ['Cryptography', 'Penetration Testing', 'OWASP', 'Secure Coding Practices']
+      items: ['Cryptography', 'OWASP', 'Secure Coding Practices']
     }
   ];
 
