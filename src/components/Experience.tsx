@@ -24,7 +24,7 @@ export default function Experience() {
 
   return (
     <section id="experience" className="experience-section">
-      <div className="section-inner">
+      <div className="section-inner slide-in-right">
         <h2 className="section-title">Experience</h2>
         <div className="section-underline"></div>
         <div className="timeline">

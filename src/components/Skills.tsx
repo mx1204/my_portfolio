@@ -22,7 +22,7 @@ export default function Skills() {
 
   return (
     <section id="skills" className="skills-section">
-      <div className="section-inner">
+      <div className="section-inner slide-in-left">
         <h2 className="section-title">Skills</h2>
         <div className="section-underline"></div>
         <div className="skill-grid">

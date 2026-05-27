@@ -27,7 +27,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="projects-section">
-      <div className="section-inner">
+      <div className="section-inner fade-in">
         <h2 className="section-title">Projects</h2>
         <div className="section-underline"></div>
         <div className="project-grid">

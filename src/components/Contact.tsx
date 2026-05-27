@@ -3,7 +3,7 @@ import './Contact.css';
 export default function Contact() {
   return (
     <section id="contact" className="contact-section">
-      <div className="section-inner">
+      <div className="section-inner slide-in-left">
         <h2 className="section-title">Contact Me</h2>
         <div className="section-underline"></div>
         <form

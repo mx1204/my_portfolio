@@ -3,7 +3,7 @@ import './About.css';
 export default function About() {
   return (
     <section id="about" className="about-section">
-      <div className="section-inner">
+      <div className="section-inner fade-in">
         <h2 className="section-title">About Me</h2>
         <div className="section-underline"></div>
       <p>I’m Lee Ming Xuan, a final‑year Computer Science undergraduate at SIM‑UOW, double‑majoring in Digital Systems Security, AI, and Big Data. I’m driven by building AI‑powered systems that actually ship and make real impact. I’m seeking roles where I can design and deliver intelligent solutions at scale.</p>
