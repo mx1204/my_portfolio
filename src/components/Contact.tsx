@@ -1,6 +1,17 @@
 import './Contact.css';
 
 export default function Contact() {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const form = e.currentTarget;
+    const name = (form.elements.namedItem('name') as HTMLInputElement).value;
+    const email = (form.elements.namedItem('email') as HTMLInputElement).value;
+    const message = (form.elements.namedItem('message') as HTMLTextAreaElement).value;
+
+    const mailtoLink = `mailto:mingxuanlee111@gmail.com?subject=Portfolio Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+    window.location.href = mailtoLink;
+  };
+
   return (
     <section id="contact" className="contact-section">
       <div className="section-inner">
@@ -8,8 +19,7 @@ export default function Contact() {
         <div className="section-underline"></div>
         <form
           className="contact-form"
-          action="https://formspree.io/f/your_form_id"
-          method="POST"
+          onSubmit={handleSubmit}
         >
         <label>
           <span>Name</span>
@@ -17,7 +27,7 @@ export default function Contact() {
         </label>
         <label>
           <span>Email</span>
-          <input type="email" name="_replyto" required />
+          <input type="email" name="email" required />
         </label>
         <label>
           <span>Message</span>
