@@ -44,6 +44,8 @@
   line-height: 1.8;
   white-space: pre-wrap;
   font-size: 1.05rem;
+  min-height: 300px;
+  display: block;
 }
 
 @media (max-width: 768px) {
