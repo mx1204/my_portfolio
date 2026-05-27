@@ -8,7 +8,7 @@ export default function Contact() {
         <div className="section-underline"></div>
         <form
           className="contact-form"
-          action="https://formspree.io/f/3011048628664926129"
+          action="https://formspree.io/f/mgoqrkog"
           method="POST"
         >
         <label>
