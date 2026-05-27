@@ -18,7 +18,11 @@ export default function Experience() {
       role: 'Cluster Leader',
       dates: 'Dec 2025 – Jan 2026',
       location: 'Singapore',
-      description: 'Promoted to Cluster Leader in recognition of performance and leadership impact across business development initiatives.'
+      description: [
+        'Promoted to Cluster Leader in recognition of performance and leadership impact across business development initiatives.',
+        'Led and coordinated a cluster of student consultants, setting priorities, tracking deliverables, and ensuring alignment with organizational objectives.',
+        'Acted as the primary liaison between internal teams and stakeholders, streamlining communication and improving execution efficiency.'
+      ]
     },
     {
       company: 'SIMGE (SIM Global Education)',
