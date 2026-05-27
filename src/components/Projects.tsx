@@ -31,19 +31,34 @@ export default function Projects() {
         <h2 className="section-title">Projects</h2>
         <div className="section-underline"></div>
         <div className="project-grid">
-          {projects.map((p, i) => (
-            <div key={i} className="project-card card">
-              <div className="card-body">
-                <h3>{p.title}</h3>
-                <p className="project-description">{p.description}</p>
-                <ul className="tech-list">
-                  {p.tech.map((t) => (
-                    <li key={t} className="badge">{t}</li>
-                  ))}
-                </ul>
+          <div className="project-scroll">
+            {projects.map((p, i) => (
+              <div key={i} className="project-card card">
+                <div className="card-body">
+                  <h3>{p.title}</h3>
+                  <p className="project-description">{p.description}</p>
+                  <ul className="tech-list">
+                    {p.tech.map((t) => (
+                      <li key={t} className="badge">{t}</li>
+                    ))}
+                  </ul>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+            {projects.map((p, i) => (
+              <div key={`${i}-duplicate`} className="project-card card">
+                <div className="card-body">
+                  <h3>{p.title}</h3>
+                  <p className="project-description">{p.description}</p>
+                  <ul className="tech-list">
+                    {p.tech.map((t) => (
+                      <li key={t} className="badge">{t}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
