@@ -39,7 +39,11 @@ export default function Experience() {
       role: 'Co-Founder',
       dates: 'May 2024 – Mar 2025',
       location: 'Singapore',
-      description: 'A startup travel agency specializing in inbound tourism to Singapore, offering guided tours, transportation, and accommodation services. Launched Hua Xing International Business with zero initial revenue and grew operations to over 20 inbound tours/month, serving tour groups of 20–40 pax. Built internal data processes to improve operational efficiency, including semi-automated cost breakdowns and margin analysis. Developed strong cross-functional skills by aligning logistics, finance, and marketing efforts to support business growth.'
+      description: [
+        'Launched Hua Xing International Business with zero initial revenue and grew operations to over 20 inbound tours/month, serving tour groups of 20–40 pax.',
+        'Built internal data processes to improve operational efficiency, including semi-automated cost breakdowns and margin analysis.',
+        'Developed strong cross-functional skills by aligning logistics, finance, and marketing efforts to support business growth.'
+      ]
     },
     {
       company: 'Singapore Army',
