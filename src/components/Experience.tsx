@@ -29,7 +29,10 @@ export default function Experience() {
       role: 'Business Development Officer',
       dates: 'Sep 2025 – Dec 2025',
       location: 'Singapore',
-      description: 'Supported student learning and engagement initiatives through market research, data analysis, and coordination with corporate partners. Initiated and built an automated web-based data dashboard (Python) to replace manual reporting workflows, converting raw .csv/.xlsx inputs into interactive insights and reducing analysis time by over 50%, enabling faster, data-driven decisions on career workshops.'
+      description: [
+        'Supported student learning and engagement initiatives through market research, data analysis, and coordination with corporate partners.',
+        'Initiated and built an automated web-based data dashboard (Python) to replace manual reporting workflows, converting raw .csv/.xlsx inputs into interactive insights and reducing analysis time by over 50%, enabling faster, data-driven decisions on career workshops.'
+      ]
     },
     {
       company: 'Hua Xing International Business (Singapore)',
