@@ -74,37 +74,33 @@
   margin-top: 2rem;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  text-align: left;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.contact-box p {
-  margin: 0.5rem 0;
-  font-size: 0.95rem;
-  color: #b0b0b0;
+.contact-link {
   display: flex;
   align-items: center;
-}
-
-.contact-icon {
-  font-size: 1.2rem;
-  margin-right: 0.75rem;
-  display: inline-block;
-}
-
-.contact-box strong {
-  color: var(--accent);
-  margin-right: 0.5rem;
-}
-
-.contact-box a {
-  color: var(--accent);
+  gap: 0.5rem;
+  color: #b0b0b0;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.contact-box a:hover {
-  color: #fff;
-  text-decoration: underline;
+.contact-link:hover {
+  color: var(--accent);
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.contact-label {
+  font-size: 0.95rem;
+  font-weight: 500;
 }
 
 .cursor {
