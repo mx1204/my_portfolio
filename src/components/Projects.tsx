@@ -3,6 +3,13 @@ import './Projects.css';
 export default function Projects() {
   const projects = [
     {
+      title: 'Nexus Secure AI',
+      tech: ['FastAPI', 'React', 'LlamaIndex', 'ChromaDB', 'Ollama'],
+      description:
+        'PDPA-compliant enterprise chatbot with secure RAG for tender management and document intelligence with Singapore-resident data processing.',
+      link: '#',
+    },
+    {
       title: 'Gmail‑Telegram AI Copilot',
       tech: ['Node.js', 'Google APIs', 'Telegram Bot', 'OpenAI'],
       description:
