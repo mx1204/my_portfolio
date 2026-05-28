@@ -81,6 +81,14 @@
   margin: 0.5rem 0;
   font-size: 0.95rem;
   color: #b0b0b0;
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  font-size: 1.2rem;
+  margin-right: 0.75rem;
+  display: inline-block;
 }
 
 .contact-box strong {

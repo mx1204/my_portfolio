@@ -43,9 +43,9 @@ export default function Hero() {
           <a href="/Lee_Ming_Xuan_CV.pdf" className="btn secondary" download>Download CV</a>
         </div>
         <div className="contact-box">
-          <p><strong>Email:</strong> mingxuanlee111@gmail.com</p>
-          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mxlee0101/" target="_blank" rel="noopener noreferrer">linkedin.com/in/mxlee0101</a></p>
-          <p><strong>GitHub:</strong> <a href="https://github.com/mx1204" target="_blank" rel="noopener noreferrer">github.com/mx1204</a></p>
+          <p><span className="contact-icon">✉️</span> <strong>Email:</strong> mingxuanlee111@gmail.com</p>
+          <p><span className="contact-icon">🔗</span> <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mxlee0101/" target="_blank" rel="noopener noreferrer">linkedin.com/in/mxlee0101</a></p>
+          <p><span className="contact-icon">💻</span> <strong>GitHub:</strong> <a href="https://github.com/mx1204" target="_blank" rel="noopener noreferrer">github.com/mx1204</a></p>
         </div>
       </div>
       <div className="hero-bg" />
