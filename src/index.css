@@ -109,6 +109,13 @@ section {
   width: 100%;
   padding: 6rem 2rem;
   border-bottom: 1px solid var(--border);
+  background: rgba(18, 18, 30, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+section:nth-child(even) {
+  background: rgba(18, 18, 30, 0.6);
 }
 
 .section-inner {
