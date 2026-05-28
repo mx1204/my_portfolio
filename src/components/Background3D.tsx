@@ -43,10 +43,10 @@ export default function Background3D() {
     particlesGeometry.setAttribute('color', new THREE.BufferAttribute(colorArray, 3));
 
     const particlesMaterial = new THREE.PointsMaterial({
-      size: 0.03,
+      size: 0.05,
       vertexColors: true,
       transparent: true,
-      opacity: 0.9,
+      opacity: 1.0,
       blending: THREE.AdditiveBlending,
     });
 
@@ -58,7 +58,7 @@ export default function Background3D() {
     const linesMaterial = new THREE.LineBasicMaterial({
       color: 0x00dfff,
       transparent: true,
-      opacity: 0.2,
+      opacity: 0.3,
       blending: THREE.AdditiveBlending,
     });
 
