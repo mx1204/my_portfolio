@@ -9,7 +9,7 @@ export default function Experience() {
       location: 'Singapore',
       description: [
         'Supported government tender processes by preparing technical documentation, AI solution proposals, and compliance materials, including independently managing a government tender end-to-end with a successful project value in the five- to six-digit revenue range.',
-        'Collaborated in the design and implementation of AI solutions, contributing to system architecture, data workflows, and deployment.',
+        'Collaborated in the design and implementation of AI solutions, contributing to system architecture, workflows, and deployment.',
         'Participated in client-facing discussions and internal planning, aligning technical capabilities with business requirements; represented the company in the Win in Suzhou · Create & Win the Future 2026 Global Entrepreneurship Competition and achieved the Excellence Award.'
       ]
     },
@@ -19,7 +19,6 @@ export default function Experience() {
       dates: 'Dec 2025 – Jan 2026',
       location: 'Singapore',
       description: [
-        'Promoted to Cluster Leader in recognition of performance and leadership impact across business development initiatives.',
         'Led and coordinated a cluster of student consultants, setting priorities, tracking deliverables, and ensuring alignment with organizational objectives.',
         'Acted as the primary liaison between internal teams and stakeholders, streamlining communication and improving execution efficiency.'
       ]
