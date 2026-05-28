@@ -44,8 +44,7 @@
   line-height: 1.8;
   white-space: pre-wrap;
   font-size: 1.05rem;
-  height: 300px;
-  overflow: hidden;
+  min-height: 400px;
   display: block;
 }
 
