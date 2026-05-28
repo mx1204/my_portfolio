@@ -26,8 +26,8 @@ export default function About() {
           setIsDecrypted(true);
         }
 
-        iteration += 1 / 3;
-      }, 30);
+        iteration += 0.8;
+      }, 15);
     };
 
     const observer = new IntersectionObserver((entries) => {
