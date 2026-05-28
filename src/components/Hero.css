@@ -66,6 +66,39 @@
   color: var(--accent);
 }
 
+.contact-box {
+  background: rgba(20, 20, 20, 0.6);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  text-align: left;
+}
+
+.contact-box p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  color: #b0b0b0;
+}
+
+.contact-box strong {
+  color: var(--accent);
+  margin-right: 0.5rem;
+}
+
+.contact-box a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-box a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
 .cursor {
   animation: blink 1s infinite;
 }
