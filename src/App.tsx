@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import Background3D from './components/Background3D';
 
 function App() {
@@ -95,6 +96,7 @@ function App() {
         <Projects />
         <Contact />
       </main>
+      <Footer />
     </>
   );
 }

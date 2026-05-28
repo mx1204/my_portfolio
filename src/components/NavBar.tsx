@@ -8,9 +8,6 @@ export default function NavBar() {
 
   return (
     <nav className="navbar">
-      <div className="nav-left">
-        <a href="#" className="brand">LMX</a>
-      </div>
       <button className="nav-toggle" onClick={toggle} aria-label="Toggle navigation">
         <span className="hamburger"></span>
       </button>
