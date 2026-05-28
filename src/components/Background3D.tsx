@@ -16,33 +16,50 @@ export default function Background3D() {
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     containerRef.current.appendChild(renderer.domElement);
 
-    // Create particles
+    // Create particles with multiple colors
     const particlesGeometry = new THREE.BufferGeometry();
-    const particlesCount = 500;
+    const particlesCount = 800;
     const posArray = new Float32Array(particlesCount * 3);
+    const colorArray = new Float32Array(particlesCount * 3);
 
-    for (let i = 0; i < particlesCount * 3; i++) {
-      posArray[i] = (Math.random() - 0.5) * 10;
+    const colors = [
+      new THREE.Color(0x00dfff), // Cyan
+      new THREE.Color(0x8b5cf6), // Purple
+      new THREE.Color(0x3b82f6), // Electric blue
+    ];
+
+    for (let i = 0; i < particlesCount; i++) {
+      posArray[i * 3] = (Math.random() - 0.5) * 15;
+      posArray[i * 3 + 1] = (Math.random() - 0.5) * 15;
+      posArray[i * 3 + 2] = (Math.random() - 0.5) * 15;
+
+      const color = colors[Math.floor(Math.random() * colors.length)];
+      colorArray[i * 3] = color.r;
+      colorArray[i * 3 + 1] = color.g;
+      colorArray[i * 3 + 2] = color.b;
     }
 
     particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
+    particlesGeometry.setAttribute('color', new THREE.BufferAttribute(colorArray, 3));
 
     const particlesMaterial = new THREE.PointsMaterial({
-      size: 0.02,
-      color: 0x00dfff,
+      size: 0.03,
+      vertexColors: true,
       transparent: true,
-      opacity: 0.8,
+      opacity: 0.9,
+      blending: THREE.AdditiveBlending,
     });
 
     const particlesMesh = new THREE.Points(particlesGeometry, particlesMaterial);
     scene.add(particlesMesh);
 
-    // Create neural network connections
+    // Create neural network connections with gradient colors
     const linesGeometry = new THREE.BufferGeometry();
     const linesMaterial = new THREE.LineBasicMaterial({
       color: 0x00dfff,
       transparent: true,
-      opacity: 0.15,
+      opacity: 0.2,
+      blending: THREE.AdditiveBlending,
     });
 
     const linesMesh = new THREE.LineSegments(linesGeometry, linesMaterial);
@@ -83,7 +100,7 @@ export default function Background3D() {
           const dz = positions[i * 3 + 2] - positions[j * 3 + 2];
           const distance = Math.sqrt(dx * dx + dy * dy + dz * dz);
 
-          if (distance < 1.5) {
+          if (distance < 2.0) {
             linePositions.push(
               positions[i * 3], positions[i * 3 + 1], positions[i * 3 + 2],
               positions[j * 3], positions[j * 3 + 1], positions[j * 3 + 2]
