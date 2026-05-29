@@ -40,7 +40,6 @@ export default function Hero() {
         <p className="hero-tagline">{displayText}<span className="cursor">|</span></p>
         <div className="hero-ctas">
           <a href="#projects" className="btn primary">View Projects</a>
-          <a href="/Lee_Ming_Xuan_CV.pdf" className="btn secondary" download>Download CV</a>
         </div>
         <div className="contact-box">
           <a href="mailto:mingxuanlee111@gmail.com" className="contact-link">
