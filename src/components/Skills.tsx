@@ -3,20 +3,20 @@ import './Skills.css';
 export default function Skills() {
   const skillGroups = [
     {
-      title: 'Languages & Frameworks',
-      items: ['JavaScript (ES6+)', 'TypeScript', 'Python', 'React', 'Node.js', 'Express', 'Vite', 'HTML5', 'CSS3']
+      title: 'AI / LLM Engineering',
+      items: ['Agentic AI Design', 'Re-Act', 'Plan & Execute', 'Multi-Agent Systems', 'RAG Pipelines', 'LangGraph', 'LangChain', 'LlamaIndex', 'Prompt & Context Engineering', 'LLMs', 'Llama 3', 'Gemini', 'Groq', 'PyTorch']
     },
     {
-      title: 'AI / ML',
-      items: ['TensorFlow', 'PyTorch', 'OpenAI API', 'LangChain', 'Prompt Engineering']
+      title: 'Languages & Backend',
+      items: ['Python', 'SQL', 'JavaScript', 'C++', 'FastAPI', 'Uvicorn', 'Google API']
     },
     {
-      title: 'DevOps & Cloud',
-      items: ['Docker', 'GitHub Actions', 'AWS (Lambda, S3)']
+      title: 'Data & Retrieval',
+      items: ['ChromaDB', 'Vector Databases', 'Scheduled RAG', 'MongoDB']
     },
     {
-      title: 'Security',
-      items: ['Cryptography', 'OWASP', 'Secure Coding Practices']
+      title: 'DevOps & Security',
+      items: ['Docker', 'Docker Compose', 'Kubernetes', 'AES-256/RSA Cryptography']
     }
   ];
 
