@@ -34,12 +34,12 @@ export default function Experience() {
       ]
     },
     {
-      company: 'Hua Xing International Business (Singapore)',
-      role: 'Co-Founder',
+      company: '',
+      role: 'Co-Founder - Singapore Inbound Tourism Venture',
       dates: 'May 2024 – Mar 2025',
       location: 'Singapore',
       description: [
-        'Launched Hua Xing International Business with zero initial revenue and grew operations to over 20 inbound tours/month, serving tour groups of 20–40 pax.',
+        'Launched a Singapore inbound tourism venture with zero initial revenue and grew operations to over 20 inbound tours/month, serving tour groups of 20–40 pax.',
         'Built internal data processes to improve operational efficiency, including semi-automated cost breakdowns and margin analysis.',
         'Developed strong cross-functional skills by aligning logistics, finance, and marketing efforts to support business growth.'
       ]
@@ -65,7 +65,7 @@ export default function Experience() {
         <div className="timeline">
           {experiences.map((exp, idx) => (
             <div key={idx} className="timeline-item">
-              <h3>{exp.role} @ {exp.company}</h3>
+              <h3>{exp.company ? `${exp.role} @ ${exp.company}` : exp.role}</h3>
               <p className="timeframe">{exp.dates} • {exp.location}</p>
               {Array.isArray(exp.description) ? (
                 <ul>
